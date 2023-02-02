@@ -54,7 +54,6 @@ p{
 .griglia_carte{
     padding-top: 3rem;
     width: 100%;
-    min-width: 1350px;
 }
 .clearfix::after{
     content: "";
@@ -68,7 +67,7 @@ p{
     float: left;
     height: 10rem;
     width:calc((100% / 3) - (40px / 3));
-    min-width: 340px;
+    min-width: 345px;
     background-color: #0f0e17;
     margin-bottom: 1.5rem;
 }
