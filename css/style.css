@@ -4,20 +4,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 
 body{
     background-color: #fffffe;
 }
 /*MAIN*/
 
-/*Titolo*/
+/*Testi*/
 
 h1{
     font-family: 'Fredoka', sans-serif;
     color: #e53170;
     text-align: center;
     margin-top: 1.5rem;
+    margin-bottom: 0.1rem;
+}
+h2{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 530; 
+    font-size: 1.3rem;
+    margin-top:1rem;
+}
+p{
+    text-align: center;
     
+}
+.descrizione{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 100; 
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 /*Contenitore*/
@@ -25,7 +47,6 @@ h1{
     width: 80%;
     max-width: 1200px;
     margin: 1.5rem auto;
-    text-align: center;
 }
 
 /*Griglia carte*/
@@ -53,4 +74,15 @@ h1{
 .colonna_centrale{
     margin-right: 20px;
     margin-left: 20px;
+}
+
+/*Immagini*/
+.immagini{
+    height: 100%;
+    float: left;
+    padding-right: 1rem;
+}
+/*Email*/
+.email{
+    color:#1095e6;
 }
