@@ -22,9 +22,35 @@ h1{
 
 /*Contenitore*/
 .contenitore{
-    background-color: pink;
     width: 80%;
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     text-align: center;
+}
+
+/*Griglia carte*/
+.griglia_carte{
+    padding-top: 3rem;
+    width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Carta*/
+.carta{
+    float: left;
+    height: 100px;
+    width:calc((100% / 3) - (40px / 3));
+    background-color: #0f0e17;
+    margin-bottom: 1.5rem;
+}
+
+/*Spaziatura colonna*/
+.colonna_centrale{
+    margin-right: 20px;
+    margin-left: 20px;
 }
