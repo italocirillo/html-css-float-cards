@@ -1,3 +1,30 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: #fffffe;
+}
+/*MAIN*/
+
+/*Titolo*/
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    color: #e53170;
+    text-align: center;
+    margin-top: 1.5rem;
+    
+}
+
+/*Contenitore*/
+.contenitore{
+    background-color: pink;
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
 }
