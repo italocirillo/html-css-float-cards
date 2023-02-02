@@ -42,6 +42,7 @@ p{
     margin-bottom: 0.3rem;
 }
 
+
 /*Contenitore*/
 .contenitore{
     width: 80%;
@@ -64,7 +65,7 @@ p{
 /*Carta*/
 .carta{
     float: left;
-    height: 100px;
+    height: 10rem;
     width:calc((100% / 3) - (40px / 3));
     background-color: #0f0e17;
     margin-bottom: 1.5rem;
@@ -85,4 +86,6 @@ p{
 /*Email*/
 .email{
     color:#1095e6;
+    text-decoration: none;
+    width: 0.9em;
 }
