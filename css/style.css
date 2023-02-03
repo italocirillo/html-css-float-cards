@@ -74,9 +74,11 @@ p{
 }
 
 /*Spaziatura colonna*/
+.colonna_destra{
+    margin-right:20px;
+}
 .colonna_centrale{
     margin-right: 20px;
-    margin-left: 20px;
 }
 
 /*Immagini*/
